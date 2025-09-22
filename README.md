@@ -1,2 +1,4 @@
 # front-end_progress
-https://roadmap.sh/projects/single-page-cv
+Projects Completed:
+1. Single Page CV
+2. Basic HTML Website
