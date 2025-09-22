@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Carl">
+        <meta name="description" content="Lists of articles">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Articles</title>
+        <link rel="icon" href="favicon.ico">
+        <style>
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+            }
+
+            nav a {
+                margin-left: 10px;
+                text-decoration: none;
+                color: black;
+            }
+
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            .profile img {
+                width: 18px;
+                height: auto;
+                padding-right: 5px;
+                vertical-align: middle;
+            }
+
+            h1 {
+                padding: 20px;
+                text-align: center;
+            }
+
+            .three-columns {
+                justify-content: center;
+                display: flex;
+                gap: 20px;
+            }
+
+            .three-columns section {
+                padding: 25px;
+                border-style: solid;
+                border-radius: 20%;
+                border-color: beige;
+            }
+
+            footer {
+                width: 100%;
+                text-align: center;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+                <div class="profile">
+                    <img src="picture.jpg" alt="Logo">
+                    <span>Roland Carl</span>
+                </div>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="articles.html">Articles</a>
+                    <a href="contacts.html">Contacts</a>
+                </nav>
+                </header>
+                <h1>
+                    Frontend Developer
+                </h1>
+
+                <div class="three-columns">
+                    <section>
+                        <h5>First Article</h5>
+                    </section>
+                    <section>
+                        <h5>Second Article</h5>
+                    </section>
+                    <section>
+                        <h5>Third Article</h5>
+                    </section>
+                </div>
+                
+                <footer>
+                    <p>&copy; all rights reserved 2025</p>
+                </footer>
+    </body>
+</html>
