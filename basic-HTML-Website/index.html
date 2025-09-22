@@ -14,27 +14,129 @@
             }
 
             span {
-                margin-left: 40%;
+                float: right;
+            }
+
+            h3 {
+                margin-left: 5px;
+            }
+
+            h1 {
+                padding: 20px;
+                text-align: center;
+            }
+
+            table {
+                width: 100%;
+            }
+
+            p {
+                padding: 0px;
+                margin-left: 10px;
+            }
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                padding-bottom: 10px;
+            }
+
+            ul li::before {
+                content: " - ";
+            }
+
+            li {
+                padding-left: 10px;
+            }
+
+            .container {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .box {
+                flex: 1;
+                margin: 5px;
+                border: 2px solid black;
+                border-radius: 10px;
+            }
+
+            footer {
+                position: fixed;
+                width: 100%;
+                text-align: center;
+                padding: 20px;
             }
         </style>
     </head>
 
     <body>
-        <p><img src="picture.jpg" alt="profile picture">Roland Carl 
+        <main>
+            <p><img src="picture.jpg" alt="profile picture">Roland Carl 
             <span>
                 <a href="#">Home</a> / <a href="#">Projects</a> / <a href="#">Articles</a> / <a href="#">Contacts</a>
             </span>
             </p>
+
+            <h1>
+                Frontend Developer
+            </h1>
         <table>
             <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
+                <td width="33%">
+                    <h3>Projects</h3>
+                        <p>HTML Only Portfolio</p>
+                        <hr>
+                        <p>Calculator</p>
+                        <hr>
+                        <p>Quiz App</p>
+                        <hr>
+                        <p>Countdown Timer</p>
+                        <hr>
+                        <p>Product Upcoming Page</p>
+                </td>
+                <td width="34%">
+                    <h3>Work Experience</h3>
+                    <p>roadmap.sh<br>Solved all the frontend projects<br><a href="#">Visit my Profile</a></p>
+                    <hr>
+                    <h3>OpenSource Work</h3>
+                    <p>Contributed to 50 opensource<br>projects. Made my own projects with<br>200 GitHub Stars<br><a href="#">Visit my Github profile</a></p>
+                </td>
+                <td width="33%">
+                    <h3>Education</h3>
+                    <p>Graduated with 3.76 out of 4<br>CGPA. Won Acme Hackathon.<br>Organized 30 sessions.</p>
+                    <p>Courses I took:</p>
+                    <ul>
+                        <li>Object Oriented Programming</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Web Engineering</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Human Computer Interaction</li>
+                        <li>Computer Graphics</li>
+                        <li>Database Management Systems</li>
+                        <li>Distributed Database Systems</li>
+                        <li>Discreet Mathematics</li>
+                    </ul>
+                </td>
             </tr>
         </table>
+        <h3>Reviews from my Teachers</h3>
+        <div class="container">
+            <div class="box">
+            <p>John doe was a brilliant<br>student; always stood out<br>with his assignments.</p>
+            </div>
+            <div class="box">
+                <p>John doe was a brilliant<br>student; always stood out<br>with his assignments.</p>
+            </div>
+            <div class="box">
+                <p>John doe was a brilliant<br>student; always stood out<br>with his assignments.</p>
+            </div>
+        </div>
+        </main>
+
+        <footer>
+            <p>&copy; all rights reserved 2025</p>
+        </footer>
     </body>
 </html>
