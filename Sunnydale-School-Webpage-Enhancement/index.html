@@ -18,6 +18,17 @@
         #upcoming-events {
             background-color: #FFFFE0;
         }
+
+        .outdoor {
+            background-color: #AFEEEE;
+            padding: 5x;
+            border: 1px solid #B0E0E6;
+        }
+
+        .contact-section {
+            background-color: #f8f3f3;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
@@ -29,14 +40,16 @@
     
     <h2 style="color: #FFA07A" id="upcoming-events">Upcoming Events</h2>
     <ul>
-        <li>Science Fair - <span style="font-weight: bold; color: red;">June 10</span></li>
-        <li>Art Exhibition - <span style="font-weight: bold; color: red;">June 15</span></li>
-        <li>Sports Day - <span style="font-weight: bold; color: red;">June 20</span></li>
+        <li data-event-type="indoor" title="Event Type: Indoor">Science Fair - <span style="font-weight: bold; color: red;">June 10</span></li>
+        <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">Art Exhibition - <span style="font-weight: bold; color: red;">June 15</span></li>
+        <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">Sports Day - <span style="font-weight: bold; color: red;">June 20</span></li>
     </ul>
     
-    <h2 style="color: #20B2AA;">Contact Us</h2>
-    <p title="Click to copy email">Email: info@sunnydaleschool.com</p>
-    <p title="Click to copy phone number">Phone: 555-1234</p>
-    <!-- Imagine clicking here shows a message: 'Thanks for reaching out!' -->
+    <div class="contact-section">
+        <h2 style="color: #20B2AA;">Contact Us</h2>
+        <p title="Click to copy email">Email: info@sunnydaleschool.com</p>
+        <p title="Click to copy phone number">Phone: 555-1234</p>
+        <!-- Imagine clicking here shows a message: 'Thanks for reaching out!' -->
+    </div>
 </body>
-</html>
+</html> 
