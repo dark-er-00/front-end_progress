@@ -1,4 +1,4 @@
-# front-end_progress
+# front-end-progress
 Completed Courses:
 1. HTML Essentials (Cisco Networking Academy)
 
