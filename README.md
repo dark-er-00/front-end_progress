@@ -1,4 +1,5 @@
-# front-end_progress
-Projects Completed:
-1. Single Page CV - https://roadmap.sh/projects/single-page-cv
-2. Basic HTML Website - https://roadmap.sh/projects/basic-html-website
+# front-end-progress
+Completed Courses:
+1. HTML Essentials (Cisco Networking Academy)
+
+-> trying to be better than yesterday :>
