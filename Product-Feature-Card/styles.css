@@ -1,0 +1,52 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: red;
+    color: black;
+}
+
+.cards {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7),
+              -2px -2px 5px rgba(0, 0, 255, 0.7);
+}
+
+img {
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 20%;
+    border: 1px dashed black;
+    margin: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7),
+              -2px -2px 5px rgba(0, 0, 255, 0.7);
+    transition: 0.3s;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 50px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
