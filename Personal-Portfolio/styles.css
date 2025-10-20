@@ -1,0 +1,114 @@
+* {
+    font-family: Arial, Sans serif;
+    box-sizing: border-box;
+}
+
+#facePicture {
+    width: 5%;
+    height: auto;
+}
+
+header img, header p {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin: 1.9%;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: lightgrey;
+}
+
+header {
+    overflow: auto;
+}
+
+.title {
+    margin-top: 8%;
+    justify-items: center;
+    text-align: center;
+}
+
+.container {
+    overflow: hidden;
+    margin: 5% 0%;
+    border: 1px solid black;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    border-right: 1px solid black;
+    padding-left: 10px;
+    height: 400px;
+}
+
+hr {
+    border-color: black;
+    padding: 0;
+}
+
+.footer {
+    text-align: center;
+    margin: 50px;
+}
+
+.review {
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+.reviews {
+    overflow: auto;
+}
+
+.workTitle {
+    font-style: italic;
+}
+
+blockquote footer {
+    color: lightgrey;
+    margin-top: 10px;
+}
+
+.reviews h3 {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px){
+    header img, header p {
+        float: none;
+    }
+
+    header nav {
+        float: none;
+    }
+
+    .column {
+        float: none;
+        width: 100%;
+    }
+
+    .review {
+        float: none;
+        width: auto;
+    }
+
+    header {
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
